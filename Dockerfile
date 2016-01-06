@@ -1,4 +1,4 @@
-FROM docker pull armv7/armhf-ubuntu_core:14.04.2
+FROM armv7/armhf-ubuntu_core:14.04.2
 
 MAINTAINER Simone Mosciatti <simone@mweb.biz>
 
