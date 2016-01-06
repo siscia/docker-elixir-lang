@@ -1,6 +1,6 @@
-FROM ubuntu:14.04
+FROM docker pull armv7/armhf-ubuntu_core:14.04.2
 
-MAINTAINER Shane Sveller <shane@shanesveller.com>
+MAINTAINER Simone Mosciatti <simone@mweb.biz>
 
 RUN export DEBIAN_FRONTEND=noninteractive && \
     apt-get update -q && \
